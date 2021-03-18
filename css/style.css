@@ -150,11 +150,13 @@ header{
   }
 
   .nav_links {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  h3 {
+  .price {
+    display: flex;
     align-items: flex-end;
   }
 
